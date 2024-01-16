@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  /* border: 2px solid red; */
+  width: 77.5vw;
+  margin-left: 201px;
+  height: 100vh;
+  flex-wrap: wrap;
+}
+.container .charts
+{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    width: 300px;
+    border: 1px ;
+    margin-top: 50px;
+    margin-left: 30px;
+    /* background-color: rgb(228, 228, 228); */
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+.charts:hover
+{
+    box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    cursor: pointer;
+}
